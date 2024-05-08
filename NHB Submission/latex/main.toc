@@ -1,0 +1,22 @@
+\contentsline {section}{\numberline {1}Results}{8}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Study 1}{10}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Study 2}{14}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Discussion}{18}{section.2}%
+\contentsline {section}{\numberline {3}Methods}{20}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Study 1 Methods}{20}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Design}{21}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Measures}{22}{subsubsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.3}Research Design}{23}{subsubsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.2}Study 2 Methods}{24}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Design}{25}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Measures}{25}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Research Design}{26}{subsubsection.3.2.3}%
+\contentsline {section}{Appendix}{30}{section*.1}%
+\contentsline {part}{\hspace {1em}}{30}{part.1}%
+\contentsline {xpart}{}{30}{part.1}%
+\contentsline {section}{\numberline {A}Study 1 Additional Results}{A1}{appendix.A}%
+\contentsline {section}{\numberline {B}Study 1 Additional Results (Appendix)}{A5}{appendix.B}%
+\contentsline {section}{\numberline {C}Study 2 Additional Results}{A13}{appendix.C}%
+\contentsline {section}{\numberline {D}Survey Questionnaires}{A21}{appendix.D}%
+\contentsline {subsection}{\numberline {D.1}Study 1}{A21}{subsection.D.1}%
+\contentsline {subsection}{\numberline {D.2}Study 2}{A27}{subsection.D.2}%

@@ -1,0 +1,27 @@
+{
+    "id": "9B1CEEB8",
+    "path": "~/Library/CloudStorage/Dropbox/Shoot the Messenger/Coding/R/02_analysis.R",
+    "project_path": "02_analysis.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1703805914322.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "104,18",
+        "scrollLine": "0"
+    },
+    "folds": "4|26|62|0|\n106|9|140|0|\n142|42|156|1|\n157|55|181|0|\n260|47|290|0|\n291|55|321|0|\n322|62|383|0|\n384|46|409|0|\n410|23|553|0|\n554|10|555|0|\n",
+    "lastKnownWriteTime": 1706731152,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1706803775484,
+    "read_only": false,
+    "read_only_alternatives": []
+}

@@ -1,0 +1,40 @@
+\renewcommand{\baselinestretch}{1.25}%
+
+\begin{table}[!t]
+\caption{Regressions of attitude measures on losing in task 1, being paired with the messenger, and their interaction}
+\begin{center}
+\scalebox{0.88}{
+\begin{threeparttable}
+\begin{tabular}{l c c c c c}
+\toprule
+ & Trustworthy & Nice & Likeable & Generous & \makecell{Attitudes\\Index} \\
+\midrule
+Lost T1                                         & $-0.310^{***}$ & $-0.480^{***}$ & $-0.461^{***}$ & $-0.532^{***}$ & $-0.075^{***}$ \\
+                                                & $(0.088)$      & $(0.079)$      & $(0.078)$      & $(0.082)$      & $(0.012)$      \\
+Messenger                                       & $0.253^{**}$   & $0.184^{*}$    & $0.283^{***}$  & $0.182^{*}$    & $0.037^{**}$   \\
+                                                & $(0.083)$      & $(0.076)$      & $(0.076)$      & $(0.079)$      & $(0.012)$      \\
+Lost x Messenger                                & $-0.472^{***}$ & $-0.440^{***}$ & $-0.566^{***}$ & $-0.479^{***}$ & $-0.081^{***}$ \\
+                                                & $(0.123)$      & $(0.111)$      & $(0.111)$      & $(0.118)$      & $(0.017)$      \\
+Constant                                        & $4.760^{***}$  & $4.678^{***}$  & $4.678^{***}$  & $4.551^{***}$  & $0.611^{***}$  \\
+                                                & $(0.063)$      & $(0.056)$      & $(0.056)$      & $(0.058)$      & $(0.009)$      \\
+\midrule
+STM: $\beta_2 + \beta_3 = 0$ $p$-values         & $0.016$        & $0.002$        & $0.001$        & $0.001$        & $0.001$        \\
+RTM: $\beta_2 = 0$ $p$-values                   & $0.002$        & $0.016$        & $0.000$        & $0.021$        & $0.002$        \\
+RTM = $-$STM: $2\beta_2+\beta_3 = 0$ $p$-values & $0.775$        & $0.520$        & $0.995$        & $0.331$        & $0.709$        \\
+TMB: $\beta_2 = 0, \beta_3 = 0$ $p$-values      & $0.001$        & $0.000$        & $0.000$        & $0.000$        & $0.000$        \\
+R$^2$                                           & $0.045$        & $0.080$        & $0.093$        & $0.087$        & $0.092$        \\
+Observations                                    & $1993$         & $1992$         & $1992$         & $1991$         & $1989$         \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]
+\scriptsize{\item[\hspace{-5mm}] \textit{Note:} OLS regressions with robust standard errors in parentheses. 
+The trustworthy, nice, likeable, and generous DVs asks respondents to rate these messenger's characteristics on a 7-point Likert scale, where a score of 1 indicates that the messenger does not have that trait at all, while a score of 7 means that a trait describes the messenger extremely well.
+    In the attitudes index, the DV is calculated by averaging the standardized ratings of the trustworthy, nice, likeable, and generous DVs to an index ranging from 0 to 1. \item[\hspace{-5mm}] $^{***}p<0.001$; $^{**}p<0.01$; $^{*}p<0.05$.}
+\end{tablenotes}
+\end{threeparttable}
+}
+\label{tab:attitude_regression}
+\end{center}
+\end{table}
+
+\renewcommand{\baselinestretch}{1.67}%

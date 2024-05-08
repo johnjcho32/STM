@@ -1,0 +1,225 @@
+\section{Methods}
+
+\subsection{Study 1 Methods}
+
+We recruited 2,762 participants from the United States on MTurk
+(Berinsky et al., 2012). 763 participants failed our preregistered
+screeners (appendix), yielding a final sample of 1,999 subjects (61\%
+female; age: \emph{M} = 41; \emph{SD} = 13 years). Participants read the
+experimental instructions, answered comprehension questions, and
+proceeded to the experiment. After the survey, participants were matched
+with their partners and compensated based on the outcomes of tasks 1 and
+2 as well as their performance in the quiz questions before each task.
+The bonus was in addition to a flat fee for participating (70 cents).
+
+\subsubsection{Design}
+
+The experiment involved two parts. In the first part, treatment was
+administered, as respondents were matched to a partner, a messenger, who
+observed their performance in a task and communicated the result to
+them. In the second part, participants played a dictator game, a
+spin-the-wheel task, and a prisoner's dilemma game. In the first part,
+participants were assigned to either a \emph{number counting task} or a
+\emph{prediction task}. Specifically, they earned a bonus of 50 cents
+for correctly identifying which of two 6 x 6 grids contained more odd
+numbers in 20 seconds or for correctly predicting the outcome of a coin
+toss. The number counting task was designed to give the impression that
+the outcome is influenced by skill, whereas the prediction task aimed to
+convey the idea that the outcome was the result of pure luck. However,
+as intended, we did not find any statistical difference between the
+outcomes of the counting and prediction tasks, meaning that empirically,
+the counting task was equivalent to a coin toss. After the task,
+participants received the news about the outcome from their partner
+(``the messenger''). The messenger used either neutral language (``Your
+count was correct/incorrect'' or ``Your coin toss prediction matched/did
+not match the coin toss'') or emotional language (``Too bad! You lost!''
+or ``Congratulations! You won!''). Then, participants read the
+instructions for the second part of the experiment and took a
+comprehension quiz.
+
+After learning the outcome of the first part, subjects proceeded to the
+second part. In the second part, respondents played three games with their
+partner who was were randomly assigned to be either the messenger or a
+new MTurk participant who was not the messenger. Specifically,
+participants played a dictator game, a spin-the-wheel task, and a
+prisoner's dilemma game in randomized order. They could earn
+up to an extra 50 cents for each game depending on their own decisions
+as well as the other player's. The dictator game split the total reward
+between the respondent and the respondent. In the spin-the-wheel task,
+they chose whether to have the computer or their partner (either the
+messenger or a different MTurk participant) spin the wheel on their
+behalf. Finally, the prisoner's dilemma was an up or down vote to
+cooperate with the messenger or not.
+
+In sum, participants were evenly assigned to one of eight conditions.
+Specifically, we used a 2 (luck: prediction task vs. skill: number
+counting task) x 2 (emotional language vs. neutral language) x 2
+(messenger vs. another participant who is not the messenger)
+between-subjects design.
+
+Additionally, we randomly assigned one-third of the sample to answer
+attitudes questions about the messenger just after the first task. The
+remaining two-thirds of the sample was evenly split between participants
+who answered the attitudes questions about the messenger or the partner
+depending on whether they were paired with the messenger or the partner
+in the three behavioral games. These questions were asked after the
+games. We find that this does not result in significant
+differences in the outcome.
+
+\subsubsection{Measures}
+
+Our main pre-registered outcome measures are behavioral: participants'
+decisions in the dictator game, spin-the-wheel task, and prisoner's
+dilemma game. We analyzed participants' decisions in the games
+separately, since each game aims to measure a different construct. The
+dictator game measures altruism (Bekkers, 2007; Benenson et al., 2007;
+Johannesson and Persson, 2000), the spin-the-wheel task captures a
+possible halo effect of the messenger, and the prisoner's dilemma is a
+proxy for cooperation (Bendor et al., 1991; Rapoport and Chammah,
+1970).\footnote{While we do not pre-register a combined index for the
+  behavioral outcomes in Study 1 like we did in Study 2, we
+  also created and analyzed a behavioral index variable combining these
+  behavioral outcomes to be able to compare Studies 1 and 2.}
+
+Additionally, we included attitudinal measures about the messenger and
+non-messenger. To measure attitudes toward the messenger or the
+non-messenger, participants rated their trustworthiness, niceness,
+likeability, and generosity on a 7-point scale ranging from ``Not at
+all'' to ``Extremely.'' The combined scale about attitudes toward the
+messenger (analyses in the Appendix) (attitudes asked first: $\alpha =
+0.91$; attitudes asked after: $\alpha = 0.95$) and the non-messenger were
+reliable ($\alpha = 0.89$).\footnote{For the attitudes index variable, which combines these three scales,
+we conduct principal component analysis on the four attitudes measures 
+and find a sharp drop-off from the eigenvalue of the first dimension
+to the second, thus validating our choice to use a single index.} At the end of the survey, participants had the
+opportunity to provide open-ended comments.
+
+\subsubsection{Research Design}
+
+\input{tables/research_design.tex}
+
+For Study 1, we first look at a simplified research design that only
+focuses on our main experimental conditions in Table \ref{tab:research-design} to determine the
+quantities of interest. For each of the dependent variables (dictator
+game, spin the wheel, prisoner's dilemma, behavioral index, trustworthy,
+nice, likeable, generous, attitudes index), we calculate the same four
+quantities of interest. First, the reward the messenger effect is
+calculated by $A-C$, which asks whether the messenger gets rewarded
+for delivering good news. Our prior hypothesis is that this RTM effect
+is greater than 0. Second, the shoot the messenger effect is calculated
+by $B-D$, which asks whether the messenger gets punished for
+delivering bad news. Our prior hypothesis is that this STM effect is
+less than 0. Finally, the total messenger bias (TMB), which asks whether
+the subjects' behavior towards the messenger depends on delivering a
+winning or losing message, is determined by whether both the STM and RTM
+effect exists, which is calculated by $A-C = 0$ and $B-D =
+0$.\footnote{As noted above, John et al (2019)'s analysis of shoot the
+  messenger only looks at $A-B$, which may conflate the valence effect
+  of receiving a bad news from actually shooting the messenger for
+  delivering bad news. We avoid this with the inclusion of the
+  non-messenger conditions when we measure the shoot the messenger
+  effect.}
+
+For the rest of our analyses, we use OLS linear regression to formally
+analyze respondents' decisions. In each of the behavioral and attitudinal
+outcomes, we model each outcome using linear regression with robust
+standard errors and indicators for randomly assigned treatment
+conditions.\footnote{As a robustness check, we also consider
+more complex regression models for the behavioral measures. 
+When we conduct generalized linear regressions in Table \ref{tab:behavior_logit_regression} 
+(tobit regression with censoring at 0 and 50 cents for the dictator game variable, 
+and logistic regression for the spin the wheel and prisoner’s dilemma variables), 
+we do not find that substantive results vary from the OLS regressions for the behavioral measures.} 
+That is, we specify:
+
+\[{Outcome}_{i} = \beta_{0} + \beta_{1}*Lost  + \beta_{2}*Messenger + \beta_{3}*Lost*Messenger + \varepsilon\]
+
+Therefore, $H_0\colon \beta_2$ is an estimate of the effect
+of rewarding the messenger, or RTM, (compared to rewarding the
+non-messenger, the excluded category) while winning, while
+$\beta_2 + \beta_3$ the estimate of the
+effect of shooting the messenger, or STM, (compared to shooting the
+non-messenger, the excluded category) while losing. We also investigate the relative magnitudes of rewarding and shooting the messenger, which
+means we are testing whether the $RTM = -STM$ (since we expect the shoot
+the messenger effect to be negative), which is a linear combination of
+parameters test of $\beta_2 = -\beta_2 -
+\beta_3$, which is equivalent to testing
+$2\beta_2 + \beta_3 = 0$. Finally, the last quantity of interest is the
+messenger bias, for which we conduct a joint hypothesis test that the RTM
+and STM are simultaneously equal to 0, which is $H_0\colon \beta_2,
+\beta_3 = 0$. 
+
+\subsection{Study 2 Methods}
+
+We recruited 3,576 participants from the United States on MTurk
+(Berinsky et al., 2012). 567 participants failed the initial screeners
+and were excluded from proceeding further in the experiment, yielding a
+final sample of 3,009 participants (60\% female; age: \emph{M} = 41;
+\emph{SD} = 13 years). The flow of the experiment was the same as in
+study 1. After the survey, participants were matched and compensated
+following the same procedure as used in study 1. The bonus was in
+addition to a flat fee for participating (70 cents). As in Study 1, we
+recruited 99 messengers to ensure that participants' choices produced
+real financial consequences for human messengers.
+
+\subsubsection{Design}
+
+The design was identical to study 1 except in two respects. First, we
+did not include emotional messages and the attitudes questions were
+asked only after the behavioral games. Second, and more substantively,
+we manipulated whether the messenger's fate was unrelated to the
+participant's, shared with the participant, or opposite of the
+participant. Specifically, in the unrelated fate condition, the
+messenger did not earn any additional money regardless of the outcome of
+task 1. This was communicated in the message announcing the outcome,
+where the messenger specified that they did not earn any money for
+delivering the message. In contrast, when the messenger shared the same
+fate as the participant, if a participant won 50 cents, the messenger
+earned 5 cents or 50 cents depending on the condition. If a participant
+lost and did not earn any money, the messenger did not earn any money
+either. Similarly, in the opposite fate conditions, the messenger did
+not earn any money when the participant won whereas they earned 5 or 50
+cents depending on the condition when the participant lost in task 1. 
+The messenger always announced their own earnings when they communicated
+the outcome of task 1. In sum, in study 2, we used a 2 (task 1:
+prediction vs. count) x 2 (partner: messenger vs. another participant) x
+5 (fate: unrelated vs. shared 5 vs. shared 50 vs. opposite 5 vs.
+opposite 50) between-subjects design.
+
+\subsubsection{Measures}
+
+Our main outcome measures are the same as in study 1, except that here
+we preregistered that we would analyze the behavioral games as an index
+of behavioral prosociality. The behavioral index is constructed as the
+average of the standardized scores for the three behavioral games across
+the entire sample. Each standardized score has \emph{M} = 0 and
+\emph{SD} = 1. Thus, the resulting behavioral index has \emph{M} = 0,
+\emph{SD} = 0.68, and ranges between $-1.3$ and $+1.3$, where a higher score
+indicates more prosociality. The attitudes scale, which ranges from 1
+(negative attitudes) to 7 (positive attitudes), had excellent
+reliability ($\alpha = 0.94$). We pooled together the shared 5 and shared
+50 cent fate conditions into one shared fate condition. 
+Similarly, for the opposite 5 and 50 cent fate conditions, 
+where the messenger earned money (5 or 50 cents
+depending on the condition) when the participant lost and did not earn
+any money when the participant won, we also pool these into one opposite fate 
+condition.\footnote{In Figures
+\ref{fig:study2_main_fivecent_behavior_all} and \ref{fig:study2_main_fivecent_attitude_all}, 
+we break out each of the shared and
+unrelated fate conditions to instances in which the partner received a 5 cent or
+50 cent bonus. For the shared fate conditions, there are no differences between
+the messenger winning or losing 50 cents or 5 cents for the RTM and STM effects
+for both behaviors and attitudes (see Panels A and B). We see slight differences in the 
+RTM effect between the 5 and 50 cent opposite fate conditions for both behaviors and attitudes. 
+While the respondent continues to reward the messenger in the 5 cent opposite fate condition (Panel D), 
+the RTM effect is not significant in the 50 cent opposite fate condition, in which
+ the messenger wins 50 cents when the respondent
+loses (Panel E).}
+
+\subsubsection{Research Design}
+In Study 2, we conduct the exact same analysis as Study 1, but focus on only one
+dependent variable (behavioral and attitudes index) for simplicity. We
+analyze each of the alignment conditions (shared, unrelated, and
+opposite fate) separately to see how the reward the messenger and shoot
+the messenger effects shift when we specify the alignment of the
+messenger.

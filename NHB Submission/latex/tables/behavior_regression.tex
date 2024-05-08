@@ -1,0 +1,42 @@
+\renewcommand{\baselinestretch}{1.25}%
+
+\begin{table}[!ht]
+\caption{Regressions of behavioral measures on losing in task 1, being paired with the messenger, and their interaction}
+\begin{center}
+\scalebox{1}{
+\begin{threeparttable}
+\begin{tabular}{l c c c c}
+\toprule
+ & \makecell{Dictator\\Game} & \makecell{Spin the\\Wheel} & \makecell{Prisoner's\\Dilemma} & \makecell{Behavioral\\Index} \\
+\midrule
+Lost T1                                          & $-0.446$       & $-0.005$       & $0.020$        & $-0.000$       \\
+                                                 & $(0.827)$      & $(0.032)$      & $(0.027)$      & $(0.041)$      \\
+Messenger                                        & $2.488^{**}$   & $0.221^{***}$  & $0.044$        & $0.245^{***}$  \\
+                                                 & $(0.796)$      & $(0.030)$      & $(0.026)$      & $(0.040)$      \\
+Lost x Messenger                                 & $-4.400^{***}$ & $-0.260^{***}$ & $-0.143^{***}$ & $-0.396^{***}$ \\
+                                                 & $(1.158)$      & $(0.044)$      & $(0.039)$      & $(0.060)$      \\
+Constant                                         & $15.814^{***}$ & $0.475^{***}$  & $0.750^{***}$  & $-0.030$       \\
+                                                 & $(0.578)$      & $(0.022)$      & $(0.019)$      & $(0.029)$      \\
+\midrule
+STM: $\beta_2 + \beta_3 = 0$ $p$-values          & $0.023$        & $0.230$        & $0.001$        & $0.001$        \\
+RTM: $\beta_2 = 0$ $p$-values                    & $0.002$        & $0.000$        & $0.091$        & $0.000$        \\
+RTM = $-$STM: $2 \beta_2+\beta_3 = 0$ $p$-values & $0.619$        & $0.000$        & $0.155$        & $0.116$        \\
+TMB: $\beta_2 = 0, \beta_3 = 0$ $p$-values       & $0.001$        & $0.000$        & $0.001$        & $0.000$        \\
+R$^2$                                            & $0.018$        & $0.045$        & $0.011$        & $0.044$        \\
+Observations                                     & $1994$         & $1994$         & $1994$         & $1994$         \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]
+\scriptsize{\item[\hspace{-5mm}] \textit{Note:} OLS regressions with robust standard errors in parentheses. 
+                                In the dictator game, the dependent variable (DV) is giving up to 50 cents to the partner. 
+                                In the spin the wheel task, the DV is choosing the partner to spin the wheel on one’s behalf instead of the computer. 
+                                In the prisoner’s dilemma, the DV is choosing cooperation. 
+                                In the behavioral index, the DV is calculated by averaging the standardized scores of the dictator game, spin the wheel task, and prisoner's dilemma. \item[\hspace{-5mm}] $^{***}p<0.001$; $^{**}p<0.01$; $^{*}p<0.05$.}
+\end{tablenotes}
+\end{threeparttable}
+}
+\label{tab:behavior_regression}
+\end{center}
+\end{table}
+
+\renewcommand{\baselinestretch}{1.67}%

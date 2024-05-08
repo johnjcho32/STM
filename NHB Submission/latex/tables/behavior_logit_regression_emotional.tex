@@ -1,0 +1,45 @@
+\renewcommand{\baselinestretch}{1.25}%
+
+\begin{table}[!t]
+\caption{Generalized linear regressions of the behavioral measures on losing in task 1, being paired with the messenger, emotionality of message, and their interaction}
+\begin{center}
+\scalebox{0.9}{
+\begin{threeparttable}
+\begin{tabular}{l c c c}
+\toprule
+ & \makecell{Dictator\\Game} & \makecell{Spin the\\Wheel} & \makecell{Prisoner's\\Dilemma} \\
+\midrule
+Lost T1                      & $-0.637$       & $-0.114$      & $0.305$        \\
+                             & $(1.640)$      & $(0.180)$     & $(0.213)$      \\
+Messenger                    & $4.298^{**}$   & $0.844^{***}$ & $0.325$        \\
+                             & $(1.548)$      & $(0.183)$     & $(0.212)$      \\
+Emotional Message            & $0.433$        & $0.050$       & $0.083$        \\
+                             & $(1.662)$      & $(0.177)$     & $(0.205)$      \\
+Lost x Messenger             & $-6.471^{**}$  & $-0.824^{**}$ & $-0.999^{***}$ \\
+                             & $(2.336)$      & $(0.259)$     & $(0.298)$      \\
+Lost x Emotional             & $-0.154$       & $0.191$       & $-0.391$       \\
+                             & $(2.396)$      & $(0.255)$     & $(0.298)$      \\
+Messenger x Emotional        & $-1.690$       & $0.171$       & $-0.147$       \\
+                             & $(2.240)$      & $(0.260)$     & $(0.297)$      \\
+Lost x Messenger x Emotional & $-0.004$       & $-0.531$      & $0.500$        \\
+                             & $(3.381)$      & $(0.369)$     & $(0.417)$      \\
+Constant                     & $12.865^{***}$ & $-0.127$      & $1.057^{***}$  \\
+                             & $(1.192)$      & $(0.126)$     & $(0.144)$      \\
+\midrule
+Observations                 & $1994$         & $1994$        & $1994$         \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]
+\scriptsize{\item[\hspace{-5mm}] \textit{Note:} Tobit regression with robust standard errors in parentheses for the first column (censoring at 0 and 50 cents),
+                                and logistic regressions with robust standard errors in parentheses for the second and third column.
+                                In the dictator game, the dependent variable (DV) is giving up to 50 cents to the partner. 
+                                In the spin the wheel task, the DV is choosing the partner to spin the wheel on one’s behalf instead of the computer. 
+                                In the prisoner’s dilemma, the DV is choosing cooperation. \item[\hspace{-5mm}] $^{***}p<0.001$; $^{**}p<0.01$; $^{*}p<0.05$.}
+\end{tablenotes}
+\end{threeparttable}
+}
+\label{tab:behavior_logit_regression_emotional}
+\end{center}
+\end{table}
+
+\renewcommand{\baselinestretch}{1.67}%

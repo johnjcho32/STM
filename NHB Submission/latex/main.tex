@@ -1,0 +1,65 @@
+\documentclass[12pt,letterpaper]{article}
+
+\input{preamble}
+
+\title{Reward or Shoot the Messenger? Experiments on How People Treat the Messenger After Receiving Good Or Bad News}
+\date{}
+\newcommand{\tit}{Reward or Shoot the Messenger? Experiments on How People Treat the Messenger After Receiving Good Or Bad News}
+\newcommand{\da}{\today} % Manually update the date
+\newcommand{\wordcount}{11,579}
+
+\begin{document}
+
+\input{names.tex}
+
+\clearpage
+
+\input{paper.tex}
+
+\input{methods.tex}
+
+%% REFERENCES ------------------------------------------------------------------------
+\clearpage{}
+\setstretch{1.5}
+
+%\bibliographystyle{bibfiles/apsa-leeper}
+\bibliographystyle{apsr}
+\bibliography{bibfiles/stm.bib}
+
+%% SUPPLEMENTARY MATERIALS -----------------------------------------------------------
+\clearpage
+\appendix
+\thispagestyle{empty}
+
+\doparttoc % Tell to minitoc to generate a toc for the parts
+\faketableofcontents % Run a fake tableofcontents command for the partocs
+
+\begin{center}
+{\bf \LARGE Supplementary Materials} \\
+\vspace{0.2in}
+{\doublespacing\Large \tit}
+\end{center}
+
+\addcontentsline{toc}{section}{Appendix} % Add the appendix text to the document TOC
+\part{} % Start the appendix part
+\parttoc % Insert the appendix TOC
+\setstretch{1}
+
+\clearpage
+\renewcommand{\thepage}{A\arabic{page}}
+\counterwithin{table}{section}
+\counterwithin{figure}{section}
+\setcounter{section}{0}
+\setcounter{page}{1}
+\setcounter{table}{0}
+\setcounter{footnote}{0}
+\renewcommand{\thetable}{\Alph{section}\arabic{table}}
+\renewcommand{\thefigure}{\Alph{section}\arabic{figure}}
+\renewcommand{\baselinestretch}{1.25}
+\setlength{\footnotesep}{1.25 \footnotesep}
+
+
+\input{appendix}
+
+
+\end{document}
