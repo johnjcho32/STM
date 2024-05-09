@@ -1,5 +1,21 @@
 \begin{thebibliography}{xx}
 
+\harvarditem{Bekkers}{2007}{bekkers2007measuring}
+Bekkers, Ren{\'e}. 2007.
+\newblock ``Measuring Altruistic Behavior in Surveys: {{The}} All-or-Nothing Dictator Game.'' {\em Survey Research Methods} 1(3):139--144.
+
+\harvarditem[Bendor, Kramer \harvardand\ Stout]{Bendor, Kramer \harvardand\ Stout}{1991}{bendor1991doubt}
+Bendor, Jonathan, Roderick~M Kramer \harvardand\ Suzanne Stout. 1991.
+\newblock ``When in Doubt... {{Cooperation}} in a Noisy Prisoner's Dilemma.'' {\em Journal of Conflict Resolution} 35(4):691--719.
+
+\harvarditem[Benenson, Pascoe \harvardand\ Radmore]{Benenson, Pascoe \harvardand\ Radmore}{2007}{benenson2007children}
+Benenson, Joyce~F, Joanna Pascoe \harvardand\ Nicola Radmore. 2007.
+\newblock ``Children's Altruistic Behavior in the Dictator Game.'' {\em Evolution and Human Behavior} 28(3):168--175.
+
+\harvarditem[Berinsky, Huber \harvardand\ Lenz]{Berinsky, Huber \harvardand\ Lenz}{2012}{berinsky2012evaluating}
+Berinsky, Adam~J, Gregory~A Huber \harvardand\ Gabriel~S Lenz. 2012.
+\newblock ``Evaluating Online Labor Markets for Experimental Research: {{Amazon}}. Com's {{Mechanical Turk}}.'' {\em Political Analysis} 20(3):351--368.
+
 \harvarditem{Bond~Jr \harvardand\ Anderson}{1987}{bond1987reluctance}
 Bond~Jr, Charles~F \harvardand\ Evan~L Anderson. 1987.
 \newblock ``The Reluctance to Transmit Bad News: {{Private}} Discomfort or Public Display?'' {\em Journal of Experimental Social Psychology} 23(2):176--187.
@@ -10,7 +26,7 @@ Buss, Arnold~H. \harvardand\ Mark Perry. 1992.
 
 \harvarditem[Charan, Useem \harvardand\ Harrington]{Charan, Useem \harvardand\ Harrington}{2002}{charan2002companies}
 Charan, Ram, Jerry Useem \harvardand\ Ann Harrington. 2002.
-\newblock ``Why Companies Fail.'' {\em Fortune} May 27th, available at {$<$}a href="https://money.cnn.com/magazines/fortune/fortune\_archive/2002/05/27/323712/index.htm"{$>$}https://money.cnn.com/magazines/fortune/fortune\_archive/2002/05/27/323712/index.htm{$<$}/a{$>$} (last accessed on April 20th, 2024).
+\newblock ``Why Companies Fail.'' {\em Fortune} May 27th, available at \url{"https://money.cnn.com/magazines/fortune/fortune_archive/2002/05/27/323712/} (last accessed on May 8th, 2024).
 
 \harvarditem[Christensen, Nielsen \harvardand\ Schwartz]{Christensen, Nielsen \harvardand\ Schwartz}{2009}{christensen2009herodotosa}
 Christensen, Dirk~Lund, Thomas~Heine Nielsen \harvardand\ Adam Schwartz. 2009.
@@ -44,7 +60,7 @@ Esposo, Sarah~R., Matthew~J. Hornsey \harvardand\ Jennifer~R. Spoor. 2013.
 \harvarditem[Grimmer, Westwood \harvardand\ Messing]{Grimmer, Westwood \harvardand\ Messing}{2014}{grimmer2014impression}
 Grimmer, Justin, Sean~J. Westwood \harvardand\ Solomon Messing. 2014.
 \newblock The {{Impression}} of {{Influence}}: {{Legislator Communication}}, {{Representation}}, and {{Democratic Accountability}}.  In {\em The {{Impression}} of {{Influence}}}.
-\newblock Princeton University Press.
+\newblock Princeton, NJ:  Princeton University Press.
 
 \harvarditem[Hornsey et~al.]{Hornsey, Grice, Jetten, Paulsen \harvardand\ Callan}{2007}{hornsey2007groupdirected}
 Hornsey, Matthew~J., Tim Grice, Jolanda Jetten, Neil Paulsen \harvardand\ Victor Callan. 2007.
@@ -57,6 +73,10 @@ Hornsey, Matthew~J., Tina Oppes \harvardand\ Alicia Svensson. 2002.
 \harvarditem{Hunt \harvardand\ Kernan}{1984}{hunt1984role}
 Hunt, James~M. \harvardand\ Jerome~B. Kernan. 1984.
 \newblock ``The {{Role}} of {{Discontinued Expectancies}} in the {{Processing}} of {{Advertising Messages}}.'' {\em The Journal of Social Psychology} 124(2):227--236.
+
+\harvarditem{Johannesson \harvardand\ Persson}{2000}{johannesson2000non}
+Johannesson, Magnus \harvardand\ Bj{\"o}rn Persson. 2000.
+\newblock ``Non-Reciprocal Altruism in Dictator Games.'' {\em Economics Letters} 69(2):137--142.
 
 \harvarditem[John, Blunden \harvardand\ Liu]{John, Blunden \harvardand\ Liu}{2019}{john2019shooting}
 John, Leslie~K, Hayley Blunden \harvardand\ Heidi Liu. 2019.
@@ -94,6 +114,11 @@ Miller, Claude~H., Lindsay~T. Lane, Leslie~M. Deatrick, Alice~M. Young \harvarda
 Ostrom, Elinor. 1998.
 \newblock ``A {{Behavioral Approach}} to the {{Rational Choice Theory}} of {{Collective Action}}: {{Presidential Address}}, {{American Political Science Association}}, 1997.'' {\em American Political Science Review} 92(1):1--22.
 
+\harvarditem{Rapoport \harvardand\ Chammah}{1965}{rapoport1965prisoner}
+Rapoport, Anatol \harvardand\ Albert~M. Chammah. 1965.
+\newblock {\em Prisoner's {{Dilemma}}: {{A Study}} in {{Conflict}} and {{Cooperation}}}.
+\newblock Ann Arbor, MI:  University of Michigan Press.
+
 \harvarditem{Rosen \harvardand\ Tesser}{1970}{rosen1970reluctance}
 Rosen, Sidney \harvardand\ Abraham Tesser. 1970.
 \newblock ``On {{Reluctance}} to {{Communicate Undesirable Information}}: {{The MUM Effect}}.'' {\em Sociometry} 33(3):253--263.
@@ -104,7 +129,7 @@ Rosen, Sidney \harvardand\ Abraham Tesser. 1972.
 
 \harvarditem{Sheldon}{1982}{sheldon1982truth}
 Sheldon, Mark. 1982.
-\newblock ``Truth {{Telling}} in {{Medicine}}.'' {\em JAMA} 247(5):651--654.
+\newblock ``Truth {{Telling}} in {{Medicine}}.'' {\em The Journal of the American Medical Association} 247(5):651--654.
 
 \harvarditem{Sparks \harvardand\ Areni}{2008}{sparks2008style}
 Sparks, John~R. \harvardand\ Charles~S. Areni. 2008.

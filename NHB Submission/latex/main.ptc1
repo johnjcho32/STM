@@ -1,6 +1,8 @@
-{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {A}Study 1 Additional Results}{\reset@font\ptcSfont A1}{appendix.A}}
-{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {B}Study 1 Additional Results (Appendix)}{\reset@font\ptcSfont A5}{appendix.B}}
-{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {C}Study 2 Additional Results}{\reset@font\ptcSfont A13}{appendix.C}}
-{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {D}Survey Questionnaires}{\reset@font\ptcSfont A21}{appendix.D}}
-{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {D.1}Study 1}{\reset@font\ptcSSfont A21}{subsection.D.1}}
-{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {D.2}Study 2}{\reset@font\ptcSSfont A27}{subsection.D.2}}
+{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {A}Study 1 Results}{\reset@font\ptcSfont A1}{appendix.A}}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {A.1}Main Results}{\reset@font\ptcSSfont A1}{subsection.A.1}}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {A.2}Additional Results}{\reset@font\ptcSSfont A5}{subsection.A.2}}
+{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {B}Study 2 Results}{\reset@font\ptcSfont A13}{appendix.B}}
+{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {C}Survey Questionnaires}{\reset@font\ptcSfont A22}{appendix.C}}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {C.1}Receiver Survey, Study 1}{\reset@font\ptcSSfont A22}{subsection.C.1}}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {C.2}Messenger Survey}{\reset@font\ptcSSfont A30}{subsection.C.2}}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {C.3}Receiver Survey, Study 2}{\reset@font\ptcSSfont A31}{subsection.C.3}}

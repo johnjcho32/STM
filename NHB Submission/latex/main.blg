@@ -3,44 +3,44 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: apsr.bst
 Database file #1: bibfiles/stm.bib
-You've used 28 entries,
+You've used 34 entries,
             2874 wiz_defined-function locations,
-            827 strings with 10421 characters,
-and the built_in function-call counts, 128128 in all, are:
-= -- 20981
-> -- 1657
+            865 strings with 11362 characters,
+and the built_in function-call counts, 158034 in all, are:
+= -- 25905
+> -- 2042
 < -- 0
-+ -- 9954
-- -- 577
-* -- 11086
-:= -- 25559
-add.period$ -- 114
-call.type$ -- 28
-change.case$ -- 364
-chr.to.int$ -- 28
-cite$ -- 28
-duplicate$ -- 425
-empty$ -- 990
-format.name$ -- 596
-if$ -- 23022
++ -- 12303
+- -- 710
+* -- 13684
+:= -- 31498
+add.period$ -- 138
+call.type$ -- 34
+change.case$ -- 442
+chr.to.int$ -- 34
+cite$ -- 34
+duplicate$ -- 516
+empty$ -- 1200
+format.name$ -- 731
+if$ -- 28401
 int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 28
-newline$ -- 117
-num.names$ -- 337
-pop$ -- 86
+missing$ -- 35
+newline$ -- 142
+num.names$ -- 413
+pop$ -- 105
 preamble$ -- 1
-purify$ -- 420
+purify$ -- 510
 quote$ -- 0
-skip$ -- 370
+skip$ -- 447
 stack$ -- 0
-substring$ -- 29723
-swap$ -- 54
-text.length$ -- 392
+substring$ -- 36719
+swap$ -- 65
+text.length$ -- 476
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 112
+type$ -- 134
 warning$ -- 0
-while$ -- 684
+while$ -- 833
 width$ -- 0
-write$ -- 390
+write$ -- 477

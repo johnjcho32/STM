@@ -3,9 +3,10 @@
 \subsection{Study 1 Methods}
 
 We recruited 2,762 participants from the United States on MTurk
-(Berinsky et al., 2012). 763 participants failed our preregistered
+\citep{berinsky2012evaluating}. 763 participants failed our preregistered
 screeners (appendix), yielding a final sample of 1,999 subjects (61\%
-female; age: \emph{M} = 41; \emph{SD} = 13 years). Participants read the
+female; age: \emph{M} = 41, \emph{SD} = 13 years) (see Table \ref{tab:exp1_sample} for more sample demographics). 
+Participants read the
 experimental instructions, answered comprehension questions, and
 proceeded to the experiment. After the survey, participants were matched
 with their partners and compensated based on the outcomes of tasks 1 and
@@ -27,7 +28,8 @@ toss. The number counting task was designed to give the impression that
 the outcome is influenced by skill, whereas the prediction task aimed to
 convey the idea that the outcome was the result of pure luck. However,
 as intended, we did not find any statistical difference between the
-outcomes of the counting and prediction tasks, meaning that empirically,
+outcomes of the counting and prediction tasks (other than the RTM effect for the prisoner's dilemma), 
+meaning that empirically,
 the counting task was equivalent to a coin toss. After the task,
 participants received the news about the outcome from their partner
 (``the messenger''). The messenger used either neutral language (``Your
@@ -63,8 +65,7 @@ remaining two-thirds of the sample was evenly split between participants
 who answered the attitudes questions about the messenger or the partner
 depending on whether they were paired with the messenger or the partner
 in the three behavioral games. These questions were asked after the
-games. We find that this does not result in significant
-differences in the outcome.
+games.
 
 \subsubsection{Measures}
 
@@ -72,11 +73,11 @@ Our main pre-registered outcome measures are behavioral: participants'
 decisions in the dictator game, spin-the-wheel task, and prisoner's
 dilemma game. We analyzed participants' decisions in the games
 separately, since each game aims to measure a different construct. The
-dictator game measures altruism (Bekkers, 2007; Benenson et al., 2007;
-Johannesson and Persson, 2000), the spin-the-wheel task captures a
+dictator game measures altruism \citep{bekkers2007measuring, benenson2007children,johannesson2000non}, 
+the spin-the-wheel task captures a
 possible halo effect of the messenger, and the prisoner's dilemma is a
-proxy for cooperation (Bendor et al., 1991; Rapoport and Chammah,
-1970).\footnote{While we do not pre-register a combined index for the
+proxy for cooperation \citep{bendor1991doubt, rapoport1965prisoner}.\footnote{While 
+we do not pre-register a combined index for the
   behavioral outcomes in Study 1 like we did in Study 2, we
   also created and analyzed a behavioral index variable combining these
   behavioral outcomes to be able to compare Studies 1 and 2.}
@@ -113,8 +114,8 @@ less than 0. Finally, the total messenger bias (TMB), which asks whether
 the subjects' behavior towards the messenger depends on delivering a
 winning or losing message, is determined by whether both the STM and RTM
 effect exists, which is calculated by $A-C = 0$ and $B-D =
-0$.\footnote{As noted above, John et al (2019)'s analysis of shoot the
-  messenger only looks at $A-B$, which may conflate the valence effect
+0$.\footnote{As noted above, \citet{john2019shooting}'s analysis of the STM effect
+ only looks at $A-B$, which may conflate the valence effect
   of receiving a bad news from actually shooting the messenger for
   delivering bad news. We avoid this with the inclusion of the
   non-messenger conditions when we measure the shoot the messenger
@@ -126,49 +127,58 @@ outcomes, we model each outcome using linear regression with robust
 standard errors and indicators for randomly assigned treatment
 conditions.\footnote{As a robustness check, we also consider
 more complex regression models for the behavioral measures. 
-When we conduct generalized linear regressions in Table \ref{tab:behavior_logit_regression} 
-(tobit regression with censoring at 0 and 50 cents for the dictator game variable, 
-and logistic regression for the spin the wheel and prisoner’s dilemma variables), 
+When we conduct generalized linear regressions (tobit regression with censoring at 0 and 50 cents for the dictator game variable, 
+and logistic regression for the spin the wheel and prisoner’s dilemma variables)
+in Tables \ref{tab:behavior_logit_regression}, 
+\ref{tab:behavior_logit_regression_emotional}, and \ref{tab:behavior_logit_regression_counting}, following 
+the logic of the main results, 
 we do not find that substantive results vary from the OLS regressions for the behavioral measures.} 
-That is, we specify:
+That is, we specify:\footnote{To test whether the emotionality of the message or the type of task matters,
+we interact the following regression with indicator variables for whether the respondent received an
+emotional message and whether the respondent performed the counting task in Tables \ref{tab:behavior_regression_emotional}
+and \ref{tab:behavior_regression_counting}, respectively. The latter regression is a deviation from our
+pre-registered analysis from Study 1, in which we stated that we would examine the effect of the counting task
+by interacting the 
+type of task with the messenger instead.}
 
 \[{Outcome}_{i} = \beta_{0} + \beta_{1}*Lost  + \beta_{2}*Messenger + \beta_{3}*Lost*Messenger + \varepsilon\]
 
 Therefore, $H_0\colon \beta_2$ is an estimate of the effect
 of rewarding the messenger, or RTM, (compared to rewarding the
-non-messenger, the excluded category) while winning, while
-$\beta_2 + \beta_3$ the estimate of the
+non-messenger, the excluded category) while winning. Alternatively,
+$H_o\colon \beta_2 + \beta_3$ is the estimate of the
 effect of shooting the messenger, or STM, (compared to shooting the
 non-messenger, the excluded category) while losing. We also investigate the relative magnitudes of rewarding and shooting the messenger, which
 means we are testing whether the $RTM = -STM$ (since we expect the shoot
 the messenger effect to be negative), which is a linear combination of
 parameters test of $\beta_2 = -\beta_2 -
 \beta_3$, which is equivalent to testing
-$2\beta_2 + \beta_3 = 0$. Finally, the last quantity of interest is the
-messenger bias, for which we conduct a joint hypothesis test that the RTM
+$2\beta_2 + \beta_3 = 0$. Finally, the last quantity of interest is total
+messenger bias (TMB), for which we conduct a joint hypothesis test that the RTM
 and STM are simultaneously equal to 0, which is $H_0\colon \beta_2,
 \beta_3 = 0$. 
 
 \subsection{Study 2 Methods}
 
 We recruited 3,576 participants from the United States on MTurk
-(Berinsky et al., 2012). 567 participants failed the initial screeners
+\citep{berinsky2012evaluating}. 567 participants failed the initial screeners
 and were excluded from proceeding further in the experiment, yielding a
-final sample of 3,009 participants (60\% female; age: \emph{M} = 41;
-\emph{SD} = 13 years). The flow of the experiment was the same as in
-study 1. After the survey, participants were matched and compensated
-following the same procedure as used in study 1. The bonus was in
+final sample of 3,000 participants (60\% female; age: \emph{M} = 41,
+\emph{SD} = 13 years) (see Table \ref{tab:exp2_sample} for more demographics). 
+The flow of the experiment was the same as in
+Study 1. After the survey, participants were matched and compensated
+following the same procedure as used in Study 1. The bonus was in
 addition to a flat fee for participating (70 cents). As in Study 1, we
 recruited 99 messengers to ensure that participants' choices produced
 real financial consequences for human messengers.
 
 \subsubsection{Design}
 
-The design was identical to study 1 except in two respects. First, we
+The design was identical to Study 1 except in two respects. First, we
 did not include emotional messages and the attitudes questions were
 asked only after the behavioral games. Second, and more substantively,
 we manipulated whether the messenger's fate was unrelated to the
-participant's, shared with the participant, or opposite of the
+participant, shared with the participant, or opposite of the
 participant. Specifically, in the unrelated fate condition, the
 messenger did not earn any additional money regardless of the outcome of
 task 1. This was communicated in the message announcing the outcome,
@@ -181,20 +191,20 @@ either. Similarly, in the opposite fate conditions, the messenger did
 not earn any money when the participant won whereas they earned 5 or 50
 cents depending on the condition when the participant lost in task 1. 
 The messenger always announced their own earnings when they communicated
-the outcome of task 1. In sum, in study 2, we used a 2 (task 1:
+the outcome of task 1. In sum, in Study 2, we used a 2 (task 1:
 prediction vs. count) x 2 (partner: messenger vs. another participant) x
 5 (fate: unrelated vs. shared 5 vs. shared 50 vs. opposite 5 vs.
 opposite 50) between-subjects design.
 
 \subsubsection{Measures}
 
-Our main outcome measures are the same as in study 1, except that here
+Our main outcome measures are the same as in Study 1, except that here
 we preregistered that we would analyze the behavioral games as an index
 of behavioral prosociality. The behavioral index is constructed as the
 average of the standardized scores for the three behavioral games across
 the entire sample. Each standardized score has \emph{M} = 0 and
 \emph{SD} = 1. Thus, the resulting behavioral index has \emph{M} = 0,
-\emph{SD} = 0.68, and ranges between $-1.3$ and $+1.3$, where a higher score
+\emph{SD} = 0.69, and ranges between $-1.3$ and $+1.3$, where a higher score
 indicates more prosociality. The attitudes scale, which ranges from 1
 (negative attitudes) to 7 (positive attitudes), had excellent
 reliability ($\alpha = 0.94$). We pooled together the shared 5 and shared
@@ -217,7 +227,7 @@ the RTM effect is not significant in the 50 cent opposite fate condition, in whi
 loses (Panel E).}
 
 \subsubsection{Research Design}
-In Study 2, we conduct the exact same analysis as Study 1, but focus on only one
+In Study 2, we conduct the exact same analysis as Study 1, but focus on only the pooled
 dependent variable (behavioral and attitudes index) for simplicity. We
 analyze each of the alignment conditions (shared, unrelated, and
 opposite fate) separately to see how the reward the messenger and shoot

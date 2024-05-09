@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.16)  8 MAY 2024 12:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.16)  8 MAY 2024 22:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -862,21 +862,20 @@ File: translations-basic-dictionary-english.trsl (english translation file `tran
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 11.
  (./names.tex
-LaTeX Font Info:    Trying to load font information for U+msa on input line 20.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 26.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 20.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 26.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 4595) in paragraph at lines 20--20
-[][]\OT1/cmr/m/n/10 Pre-Doctoral Fel-low, In-sti-tu-tion for So-cial and Pol-icy Stud-ies, Yale Uni-ver-sity. Email:
- []
 
-[1
+LaTeX Warning: No \author given.
 
-{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]) (./paper.tex [2
+) [1
+
+{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./paper.tex [2
 
 
 ] [3
@@ -897,32 +896,25 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1.
 
 ) [6] [7] (./figures_tex/survey_flow.tex) [8] [9] (./figures_tex/study1_behavior_list.tex
-<figures/study1_behavior_list.png, id=237, 867.24pt x 397.485pt>
+<figures/study1_behavior_list.png, id=239, 867.24pt x 397.485pt>
 File: figures/study1_behavior_list.png Graphic file (type png)
 <use figures/study1_behavior_list.png>
 Package pdftex.def Info: figures/study1_behavior_list.png  used on input line 4.
 (pdftex.def)             Requested size: 469.75502pt x 215.30586pt.
 ) [10 <./figures/study1_behavior_list.png>] (./figures_tex/study1_attitude_list.tex
-<figures/study1_attitude_list.png, id=259, 867.24pt x 397.485pt>
+<figures/study1_attitude_list.png, id=261, 867.24pt x 397.485pt>
 File: figures/study1_attitude_list.png Graphic file (type png)
 <use figures/study1_attitude_list.png>
 Package pdftex.def Info: figures/study1_attitude_list.png  used on input line 4.
 (pdftex.def)             Requested size: 469.75502pt x 215.30586pt.
-) [11]
-
-LaTeX Warning: Reference `tab:attitude_regression_counting' on page 12 undefined on input line 343.
-
-
-LaTeX Warning: Reference `tab:attitude_regression_emotional' on page 12 undefined on input line 343.
-
-[12 <./figures/study1_attitude_list.png>] [13] (./figures_tex/study2_main_behavior_all.tex
-<figures/study2_main_behavior_all.png, id=296, 722.7pt x 397.485pt>
+) [11] [12 <./figures/study1_attitude_list.png>] [13] (./figures_tex/study2_main_behavior_all.tex
+<figures/study2_main_behavior_all.png, id=300, 722.7pt x 397.485pt>
 File: figures/study2_main_behavior_all.png Graphic file (type png)
 <use figures/study2_main_behavior_all.png>
 Package pdftex.def Info: figures/study2_main_behavior_all.png  used on input line 4.
 (pdftex.def)             Requested size: 469.75502pt x 258.36824pt.
  [14]) [15 <./figures/study2_main_behavior_all.png>] (./figures_tex/study2_main_attitude_all.tex
-<figures/study2_main_attitude_all.png, id=310, 722.7pt x 397.485pt>
+<figures/study2_main_attitude_all.png, id=315, 722.7pt x 397.485pt>
 File: figures/study2_main_attitude_all.png Graphic file (type png)
 <use figures/study2_main_attitude_all.png>
 Package pdftex.def Info: figures/study2_main_attitude_all.png  used on input line 4.
@@ -932,24 +924,9 @@ Package pdftex.def Info: figures/study2_main_attitude_all.png  used on input lin
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1.
 
-) [23] [24] [25]) [26] (./main.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 12--14
-[]\OT1/cmr/m/n/12 Charan, Ram, Jerry Useem and Ann Har-ring-ton. 2002.  ``Why
- []
+) [23] [24] [25]) [26] (./main.bbl [27
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--14
-\OT1/cmr/m/n/12 Com-pa-nies Fail.'' \OT1/cmr/m/it/12 For-tune \OT1/cmr/m/n/12 May 27th, avail-able at $\OML/cmm/m/it/12 <$\OT1/cmr/m/n/12 a
- []
-
-
-Overfull \hbox (580.6947pt too wide) in paragraph at lines 12--14
-\OT1/cmr/m/n/12 href="https://money.cnn.com/magazines/fortune/fortune[]archive/2002/05/27/323712/index.htm"$\OML/cmm/m/it/12 >$\OT1/cmr/m/n/12 https://money.cnn.com/magazines/fortune/fortune[]archive/2002/05/27/323712/index.htm$\OML/cmm/m/it/12 <$\OT1/cmr/m/n/12 /a$\OML/cmm/m/it/12 >$
- []
-
-[27
-
-] [28]) [29]
+] [28] [29]) [30]
 Package minitoc Info: I0025
 (minitoc)             PREPARING PARTTOCS FROM main.toc on input line 35.
 
@@ -962,11 +939,11 @@ Package minitoc Info: I0025
 {\reset@font\ptcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {3.1.1}Design}{\reset@font\ptcSSSfont 21}{subsubsection.3.1.1}}
 {\reset@font\ptcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {3.1.2}Measures}{\reset@font\ptcSSSfont 22}{subsubsection.3.1.2}}
 {\reset@font\ptcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {3.1.3}Research Design}{\reset@font\ptcSSSfont 23}{subsubsection.3.1.3}}
-{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.2}Study 2 Methods}{\reset@font\ptcSSfont 24}{subsection.3.2}}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.2}Study 2 Methods}{\reset@font\ptcSSfont 25}{subsection.3.2}}
 {\reset@font\ptcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {3.2.1}Design}{\reset@font\ptcSSSfont 25}{subsubsection.3.2.1}}
-{\reset@font\ptcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {3.2.2}Measures}{\reset@font\ptcSSSfont 25}{subsubsection.3.2.2}}
+{\reset@font\ptcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {3.2.2}Measures}{\reset@font\ptcSSSfont 26}{subsubsection.3.2.2}}
 {\reset@font\ptcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {3.2.3}Research Design}{\reset@font\ptcSSSfont 26}{subsubsection.3.2.3}}
-{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode Appendix}{\reset@font\ptcSfont 30}{section*.1}}
+{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode Appendix}{\reset@font\ptcSfont 31}{section*.1}}
 Package minitoc Info: I0033
 (minitoc)             Writing main.ptc1.
 \openout7 = `main.ptc1'.
@@ -979,16 +956,21 @@ Package minitoc Info: I0033
 \openout7 = `main.mtc'.
 
 (./main.ptc1
-Overfull \hbox (2.18996pt too wide) detected at line 5
- []\OT1/cmr/m/n/10.95 A21
- []
-
-
 Overfull \hbox (2.18996pt too wide) detected at line 6
- []\OT1/cmr/m/n/10.95 A27
+ []\OT1/cmr/m/n/10.95 A22
  []
 
-) [30
+
+Overfull \hbox (2.18996pt too wide) detected at line 7
+ []\OT1/cmr/m/n/10.95 A30
+ []
+
+
+Overfull \hbox (2.18996pt too wide) detected at line 8
+ []\OT1/cmr/m/n/10.95 A31
+ []
+
+) [31
 
 ] (./appendix.tex (./tables/behavior_regression.tex) (./tables/behavior_regression_emotional.tex) (./tables/behavior_regression_counting.tex) (./tables/attitude_regression.tex
 Overfull \hbox (1.98271pt too wide) in paragraph at lines 35--37
@@ -1016,7 +998,7 @@ Overfull \hbox (12.69807pt too wide) in paragraph at lines 57--59
 
 ) [5
 
-] [6] [7] [8] [9] [10] [11] [12] (./tables/behavior_shared_regression.tex
+] [6] [7] [8] [9] [10] [11] [12] (./tables/exp2_sample.tex) (./tables/behavior_shared_regression.tex
 Overfull \hbox (2.27202pt too wide) in paragraph at lines 40--42
  [] 
  []
@@ -1031,82 +1013,64 @@ Overfull \hbox (2.27202pt too wide) in paragraph at lines 40--42
  [] 
  []
 
-) (./tables/attitude_shared_regression.tex) (./tables/attitude_unrelated_regression.tex) (./tables/attitude_opposite_regression.tex) (./figures_tex/study2_main_fivecent_behavior_all.tex
-<figures/study2_main_fivecent_behavior_all.png, id=472, 722.7pt x 397.485pt>
+) (./tables/attitude_shared_regression.tex) [13
+
+] [14] [15] [16] [17] (./tables/attitude_unrelated_regression.tex) [18] (./tables/attitude_opposite_regression.tex) (./figures_tex/study2_main_fivecent_behavior_all.tex
+<figures/study2_main_fivecent_behavior_all.png, id=551, 722.7pt x 397.485pt>
 File: figures/study2_main_fivecent_behavior_all.png Graphic file (type png)
 <use figures/study2_main_fivecent_behavior_all.png>
 Package pdftex.def Info: figures/study2_main_fivecent_behavior_all.png  used on input line 4.
 (pdftex.def)             Requested size: 469.75502pt x 258.36824pt.
 ) (./figures_tex/study2_main_fivecent_attitude_all.tex
-<figures/study2_main_fivecent_attitude_all.png, id=473, 722.7pt x 397.485pt>
+<figures/study2_main_fivecent_attitude_all.png, id=552, 722.7pt x 397.485pt>
 File: figures/study2_main_fivecent_attitude_all.png Graphic file (type png)
 <use figures/study2_main_fivecent_attitude_all.png>
 Package pdftex.def Info: figures/study2_main_fivecent_attitude_all.png  used on input line 4.
 (pdftex.def)             Requested size: 469.75502pt x 258.36824pt.
-) [13
+) [19] [20{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./figures/study2_main_fivecent_behavior_all.png>] [21 <./figures/study2_main_fivecent_attitude_all.png>] (./appendix_questionnaire.tex [22
 
-] [14] [15] [16] [17] [18] [19 <./figures/study2_main_fivecent_behavior_all.png>] [20 <./figures/study2_main_fivecent_attitude_all.png>] (./appendix_questionnaire.tex
-Overfull \hbox (24.26904pt too wide) in paragraph at lines 17--18
-[]\OT1/cmr/m/n/12 Generally speak-ing, do you con-sider your-self a: [Demo-crat/Republican/Independent/Other] 
- []
 
-[21
 
 ]
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 58.
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 78.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 58.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 78.
+ [23]
 LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 103.
- [22]
-Overfull \hbox (43.51776pt too wide) in paragraph at lines 151--153
+(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 124.
+
+Overfull \hbox (16.24878pt too wide) in paragraph at lines 133--136
+[]\OT1/cmr/m/n/12 The \OT1/cmr/bx/n/12 mes-sen-ger \OT1/cmr/m/n/12 will then tell you the out-come of the \OMS/cmsy/m/n/12 f\TS1/cmr/m/n/12 $\OT1/cmr/m/n/12 Task1\OMS/cmsy/m/n/12 g \OT1/cmr/m/n/12 task. If you \OMS/cmsy/m/n/12 f\TS1/cmr/m/n/12 $\OT1/cmr/m/n/12 Task1Correct\OMS/cmsy/m/n/12 g\OT1/cmr/m/n/12 ,
+ []
+
+[24]
+Overfull \hbox (25.89294pt too wide) in paragraph at lines 181--183
 []\OT1/cmr/m/n/12 Feedback: \OMS/cmsy/m/n/12 f\OT1/cmr/m/n/12 Correct/Incorrect.\OMS/cmsy/m/n/12 g \OT1/cmr/m/n/12 Your part 1 bonus de-pends on whether you \OMS/cmsy/m/n/12 f\TS1/cmr/m/n/12 $\OT1/cmr/m/n/12 Task1correct\OMS/cmsy/m/n/12 g\OT1/cmr/m/n/12 .
  []
 
-[23]
-Overfull \hbox (65.00768pt too wide) in paragraph at lines 240--243
+[25] [26]
+Overfull \hbox (65.00768pt too wide) in paragraph at lines 338--341
 []\OT1/cmr/m/n/12 [Slider la-bel: How much of your \TS1/cmr/m/n/12 $\OT1/cmr/m/n/12 .50 do you wish to give to your part-ner, \OMS/cmsy/m/n/12 f\TS1/cmr/m/n/12 $\OT1/cmr/m/n/12 Task2PartnerShort?\OMS/cmsy/m/n/12 g\OT1/cmr/m/n/12 ] 
  []
 
-[24] [25]
-Overfull \hbox (13.92763pt too wide) in paragraph at lines 376--379
-[]\OT1/cmr/m/n/12 (Attitudes to-ward the part-ner) How ac-cu-rate was the mes-sage about the \OMS/cmsy/m/n/12 f\TS1/cmr/m/n/12 $\OT1/cmr/m/n/12 Task1observer\OMS/cmsy/m/n/12 g
- []
+[27] [28] [29] [30
 
-[26]
-Overfull \hbox (24.26904pt too wide) in paragraph at lines 434--435
-[]\OT1/cmr/m/n/12 Generally speak-ing, do you con-sider your-self a: [Demo-crat/Republican/Independent/Other] 
- []
+] [31
 
-[27] [28] [29]
-Overfull \hbox (63.3995pt too wide) in paragraph at lines 619--621
-[]\OT1/cmr/m/n/12 Specifically, if your \OMS/cmsy/m/n/12 f\TS1/cmr/m/n/12 $\OT1/cmr/m/n/12 Task1noun\OMS/cmsy/m/n/12 g \OT1/cmr/m/n/12 is cor-rect, you will re-ceive this mes-sage: \OMS/cmsy/m/n/12 f\TS1/cmr/m/n/12 $\OT1/cmr/m/n/12 Task1CorrectMsg\OMS/cmsy/m/n/12 g\OT1/cmr/m/n/12 . 
+] [32]
+Overfull \hbox (50.66158pt too wide) in paragraph at lines 656--658
+[]\OT1/cmr/m/n/12 Specifically, if your \OMS/cmsy/m/n/12 f\TS1/cmr/m/n/12 $\OT1/cmr/m/n/12 Task1noun\OMS/cmsy/m/n/12 g \OT1/cmr/m/n/12 is cor-rect, you will re-ceive this mes-sage: \OMS/cmsy/b/n/12 f\TS1/cmr/bx/n/12 $\OT1/cmr/bx/n/12 Task1CorrectMsg\OMS/cmsy/b/n/12 g\OT1/cmr/m/n/12 . 
  []
 
 
-Overfull \hbox (19.06802pt too wide) in paragraph at lines 622--624
-[]\OT1/cmr/m/n/12 If your \OMS/cmsy/m/n/12 f\TS1/cmr/m/n/12 $\OT1/cmr/m/n/12 Task1noun\OMS/cmsy/m/n/12 g \OT1/cmr/m/n/12 is in-cor-rect, you will re-ceive this mes-sage: \OMS/cmsy/m/n/12 f\TS1/cmr/m/n/12 $\OT1/cmr/m/n/12 Task1IncorrectMsg\OMS/cmsy/m/n/12 g\OT1/cmr/m/n/12 . 
+Overfull \hbox (7.60518pt too wide) in paragraph at lines 659--661
+[]\OT1/cmr/m/n/12 If your \OMS/cmsy/m/n/12 f\TS1/cmr/m/n/12 $\OT1/cmr/m/n/12 Task1noun\OMS/cmsy/m/n/12 g \OT1/cmr/m/n/12 is in-cor-rect, you will re-ceive this mes-sage: \OMS/cmsy/b/n/12 f\TS1/cmr/bx/n/12 $\OT1/cmr/bx/n/12 Task1IncorrectMsg\OMS/cmsy/b/n/12 g\OT1/cmr/m/n/12 . 
  []
 
-
-Overfull \hbox (43.51776pt too wide) in paragraph at lines 654--656
-[]\OT1/cmr/m/n/12 Feedback: \OMS/cmsy/m/n/12 f\OT1/cmr/m/n/12 Correct/Incorrect.\OMS/cmsy/m/n/12 g \OT1/cmr/m/n/12 Your part 1 bonus de-pends on whether you \OMS/cmsy/m/n/12 f\TS1/cmr/m/n/12 $\OT1/cmr/m/n/12 Task1correct\OMS/cmsy/m/n/12 g\OT1/cmr/m/n/12 .
- []
-
-[30] [31]
-Overfull \hbox (65.00768pt too wide) in paragraph at lines 763--766
-[]\OT1/cmr/m/n/12 [Slider la-bel: How much of your \TS1/cmr/m/n/12 $\OT1/cmr/m/n/12 .50 do you wish to give to your part-ner, \OMS/cmsy/m/n/12 f\TS1/cmr/m/n/12 $\OT1/cmr/m/n/12 Task2PartnerShort?\OMS/cmsy/m/n/12 g\OT1/cmr/m/n/12 ] 
- []
-
-[32]
-Overfull \hbox (13.92763pt too wide) in paragraph at lines 899--902
-[]\OT1/cmr/m/n/12 (Attitudes to-ward the part-ner) How ac-cu-rate was the mes-sage about the \OMS/cmsy/m/n/12 f\TS1/cmr/m/n/12 $\OT1/cmr/m/n/12 Task1observer\OMS/cmsy/m/n/12 g
- []
-
-[33]))
+))
 \tf@thm=\write10
 \openout10 = `main.thm'.
 
@@ -1126,31 +1090,27 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the main.log file.
 
-[34] (./main.aux)
+[33] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 1094688190A66265294E169AC4FA98E8;2538.
+(rerunfilecheck)             Checksum: 55A59F4664F4EFA2957593552E70DE71;2766.
  ) 
 Here is how much of TeX's memory you used:
- 31789 strings out of 474116
- 633320 string characters out of 5743682
- 2017187 words of memory out of 5000000
- 53254 multiletter control sequences out of 15000+600000
- 573452 words of font info for 93 fonts, out of 8000000 for 9000
+ 31739 strings out of 474116
+ 633418 string characters out of 5743682
+ 2018187 words of memory out of 5000000
+ 53265 multiletter control sequences out of 15000+600000
+ 572639 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,18n,96p,1397b,1231s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on main.pdf (64 pages, 1048333 bytes).
+ 89i,18n,96p,1393b,1255s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on main.pdf (64 pages, 1027122 bytes).
 PDF statistics:
- 870 PDF objects out of 1000 (max. 8388607)
- 744 compressed objects within 8 object streams
- 283 named destinations out of 1000 (max. 500000)
- 211 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 822 PDF objects out of 1000 (max. 8388607)
+ 699 compressed objects within 7 object streams
+ 220 named destinations out of 1000 (max. 500000)
+ 227 words of extra memory for PDF output out of 10000 (max. 10000000)
 
